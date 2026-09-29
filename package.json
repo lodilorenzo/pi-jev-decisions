@@ -1,0 +1,14 @@
+{
+  "name": "pi-jev-decisions",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Typed Jev decision tool for Pi via OpenRouter",
+  "keywords": ["pi-package"],
+  "pi": { "extensions": ["./extensions/jev.ts"] },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "scripts": { "test": "node --experimental-strip-types --test test/*.test.ts" }
+}
