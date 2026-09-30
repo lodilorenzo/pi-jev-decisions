@@ -4,7 +4,13 @@ A Pi extension exposing OpenRouter's **Jev Decisions API** as one model-callable
 
 ## Install
 
-Install directly from this Gitea repository:
+Install directly from GitHub:
+
+```sh
+pi install https://github.com/lodilorenzo/pi-jev-decisions
+```
+
+Alternatively, install from the Gitea mirror:
 
 ```sh
 pi install https://gitea.home.lodilorenzo.dev/lodil/pi-jev-decisions
